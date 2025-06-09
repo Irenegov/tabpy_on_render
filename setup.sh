@@ -1,2 +1,2 @@
 
-mkdir -p ./tabpy_staging/endpoints
+mkdir -p ./staging/endpoints
