@@ -4,5 +4,5 @@ services:
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "bash setup.sh && tabpy --config tabpy.conf --disable-auth-warning"
+    startCommand: "bash setup.sh && tabpy --config tabpy.conf --disable-auth-warning --port=10000"
     autoDeploy: true
